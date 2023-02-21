@@ -25,6 +25,7 @@ desc_text = list()
 serv_text = list()
 bbt_text = list()
 
+# Update the loop range as required when scraping this website.
 for i in range(801, 896):
     url = f'https://www.propertypro.ng/property-for-rent/in/lagos?page={i}'
     page = requests.get(url)
