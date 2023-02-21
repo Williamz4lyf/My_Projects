@@ -17,11 +17,13 @@ Analytical Questions
     
     
 Dashboard / App
+
 With:
+
 a. Monthly Income
 b. Choice of Location / City
 c. Number of Beds, Baths, Toilets
 d. Preference - Serviced / Not Serviced
 e. Preference - Furnished / Not Furnished
 
-provide user with a list of 10 possible rental options within and around their selection range.
+Provide user with a list of 10 possible rental options within and around their selection range.
