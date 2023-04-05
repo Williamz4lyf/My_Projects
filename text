@@ -1,0 +1,30 @@
+SQL Query
+
+orders.order_id
+order_items.item_id
+[customers.first_name, customers.last_name]
+customers.city
+customers.state
+customers.zip_code
+products.product_name
+brands.brand_name
+categories.category_name
+products.model_year
+order_items.quantity
+order_items.list_price
+order_items.discount
+[calculated - order_items.sales_price]
+orders.order_date
+orders.required_date
+orders.shipped_date
+orders.order_status
+stores.store_name
+stores.street as store_street
+stores.city as store_city
+stores.state as store_state
+stores.zip_code as store_zipcode
+stocks.quantity as product_in_stock
+[staff.first_name, staff.last_name] as staff_name
+[staff.first_name, staff.last_name] as manager_name
+
+

@@ -1,0 +1,57 @@
+This week’s topic: Vegetables - https://www.bambooweekly.com/p/bw-4-eating-well
+
+Growing up, my family generally ate healthy food, including fruits and
+vegetables. Indeed, my mother always made sure that my school lunch had not
+just a sandwich, but also a yellow vegetable and a green vegetable. I
+certainly knew that the other children didn’t eat many vegetables, but it
+took a good number of years until I realized just how few many of my friends ate.
+
+I was reminded of that when reading a story in Axios several days ago, in
+which they quoted a study from the Centers for Disease Control and Prevention
+(CDC), claiming that half of young American children were eating less than one
+vegetable per day. I mean, we know that Americans don’t eat a lot of fresh
+vegetables, and we know that kids can be picky eaters, but … wow, could that
+possibly be true? And it true throughout the US?
+
+This week, we’ll try to find out, by looking at the data from that CDC study,
+known as the National Survey of Children's Health (NSCH). The study looked at
+children 5 and younger, and asked all sorts of questions — not just about
+their eating habits, but also about such topics and allergies and speaking
+abilities. It also collected demographic information, including about race,
+which is important, but which we won’t look at here.
+
+This week, I want you to download the data:
+https://www.census.gov/programs-surveys/nsch/data/datasets.html.
+In particular, here’s what I want you to do:
+(a) Download the topical data file, in SAS format, from:
+https://www2.census.gov/programs-surveys/nsch/datasets/2021/nsch_2021_topical_SAS.zip.
+(b) Turn it into a data frame. We're only interested in the following columns:
+FIPSST
+VEGETABLE
+FRUIT
+SUGARDRINK
+(c) Turn the FIPSST column into an integer, and make it the index.
+
+Analytics Questions
+1. What percentage of children had, on average, less than one vegetable
+per day during the week preceding the study?
+2. What percentage of children had, on average, less than one vegetable
+per day and less than one fruit per day during the week preceding the study?
+3. What percentage of children had, on average, less than one vegetable
+per day and less than one fruit per day and did have a sugary drink during
+the week preceding the study?
+
+Download the FIPS state reference info, in CSV format, from:
+https://www2.census.gov/geo/docs/reference/state.txt.
+Turn this into a data frame, with the STATE column as the index.
+The only other column we care about is STATE_NAME.
+
+1. What percentage of children, per state, had, on average, less than one
+vegetaable per day during the week preceding the study?
+
+The learning goals for this week are to work with SAS-formatted data,
+using boolean operators, and joining data from two data frames together.
+
+I’ll be back tomorrow (on Thursday) with my answers to these questions.
+
+Reuven
