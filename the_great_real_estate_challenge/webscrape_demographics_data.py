@@ -72,4 +72,4 @@ def demographic_data():
 
 
 if __name__ == '__main__':
-    demographic_data()
+    print(demographic_data())
